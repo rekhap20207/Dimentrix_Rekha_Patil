@@ -5,7 +5,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 class Main extends Component {
     state = {
         message: "Servey",
-        question: ["The content of the day was useful and interesting ", "On average how would you rate the seminar", "The day was structured and well oranised", "Overall how entertaining the event", "The instructor stimulated my interest in coruse topic", "The instructor was well prepared and organized for every class", "The teacher answers questions carefully and completely", "The teacher is well prepared foe class sessions", "This class is not too slow or fast to learn in class", "The rules in class help us to learn"],
+        question: ["The content of the day was useful and interesting", "On average how would you rate the seminar", "The day was structured and well oranised", "Overall how entertaining the event", "The instructor stimulated my interest in coruse topic", "The instructor was well prepared and organized for every class", "The teacher answers questions carefully and completely", "The teacher is well prepared foe class sessions", "This class is not too slow or fast to learn in class", "The rules in class help us to learn"],
         answer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         currentIndex: 0,
         percentageCompleted: 0,
